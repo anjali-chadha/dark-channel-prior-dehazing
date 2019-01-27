@@ -1,4 +1,4 @@
-##Dependencies
+## Dependencies
 
 1. pillow(~2.6.0)
 2. Numpy(~1.9.0)
@@ -9,7 +9,7 @@ If the scripts throw `AttributeError: __float__`, make sure your pillow has jpeg
     $ sudo pip uninstall pillow
     $ sudo pip install pillow
 
-##How to generate the results
+## How to generate the results
 
 Enter the `src` directory, run `python main.py`. It will use images under `img` directory as default to produce the results. The results will show up in `result` directory.
 
@@ -29,7 +29,7 @@ For input image `name.jpg` using the default parameters, the naming convention i
 
 If there are special configurations for the parameters, for example, , then the base name will be appended with `-20-170-50-40` e.g. the dark channel is `name-dark-20-170-50-40.jpg`
 
-##Directory structure
+## Directory structure
 
     .
 	├─ README.md
@@ -46,8 +46,8 @@ If there are special configurations for the parameters, for example, , then the 
         ├── guidedfilter.py (guided filter)
         └── util.py (utilities)
 
-##About
+## About
 
-* [Github repository](https://github.com/joyeecheung/dark-channel-prior-dehazing)
+* [Source Github repository](https://github.com/joyeecheung/dark-channel-prior-dehazing)
 * Author: Qiuyi Zhang
 * Time: Jan. 2015
